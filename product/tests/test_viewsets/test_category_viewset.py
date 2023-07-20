@@ -4,7 +4,7 @@ from rest_framework.views import status
 from rest_framework.test import APITestCase, APIClient
 from django.urls import reverse
 
-from product.factories import CategoryFactory, ProductFactory
+from product.factories import CategoryFactory
 
 from product.models import Category
 

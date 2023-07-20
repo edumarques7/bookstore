@@ -1,11 +1,11 @@
 import json
 
-from rest_framework.views import status
-from rest_framework.test import APITestCase, APIClient
 from django.urls import reverse
+from rest_framework.test import APIClient, APITestCase
+from rest_framework.views import status
 
-from product.factories import CategoryFactory, ProductFactory
 from order.factories import UserFactory
+from product.factories import CategoryFactory, ProductFactory
 from product.models import Product
 
 
@@ -37,7 +37,7 @@ class TestProductViewSet(APITestCase):
         data = json.dumps({
             'title': 'notebook',
             'price': 800.00,
-            'categories_id': [ category.id ]
+            'categories_id': [category.id]
         })
 
         response = self.client.post(
