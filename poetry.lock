@@ -89,31 +89,31 @@ pytz = "*"
 
 [[package]]
 name = "factory-boy"
-version = "3.2.1"
+version = "3.3.0"
 description = "A versatile test fixtures replacement based on thoughtbot's factory_bot for Ruby."
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 files = [
-    {file = "factory_boy-3.2.1-py2.py3-none-any.whl", hash = "sha256:eb02a7dd1b577ef606b75a253b9818e6f9eaf996d94449c9d5ebb124f90dc795"},
-    {file = "factory_boy-3.2.1.tar.gz", hash = "sha256:a98d277b0c047c75eb6e4ab8508a7f81fb03d2cb21986f627913546ef7a2a55e"},
+    {file = "factory_boy-3.3.0-py2.py3-none-any.whl", hash = "sha256:a2cdbdb63228177aa4f1c52f4b6d83fab2b8623bf602c7dedd7eb83c0f69c04c"},
+    {file = "factory_boy-3.3.0.tar.gz", hash = "sha256:bc76d97d1a65bbd9842a6d722882098eb549ec8ee1081f9fb2e8ff29f0c300f1"},
 ]
 
 [package.dependencies]
 Faker = ">=0.7.0"
 
 [package.extras]
-dev = ["Django", "Pillow", "SQLAlchemy", "coverage", "flake8", "isort", "mongoengine", "tox", "wheel (>=0.32.0)", "zest.releaser[recommended]"]
+dev = ["Django", "Pillow", "SQLAlchemy", "coverage", "flake8", "isort", "mongoengine", "sqlalchemy-utils", "tox", "wheel (>=0.32.0)", "zest.releaser[recommended]"]
 doc = ["Sphinx", "sphinx-rtd-theme", "sphinxcontrib-spelling"]
 
 [[package]]
 name = "faker"
-version = "19.1.0"
+version = "19.2.0"
 description = "Faker is a Python package that generates fake data for you."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "Faker-19.1.0-py3-none-any.whl", hash = "sha256:4b7d5cd0c898f0b64f88fbf0a35aac66762f2273446ba4a4e459985a2e5c8f8c"},
-    {file = "Faker-19.1.0.tar.gz", hash = "sha256:d1eb772faf4a7c458c90b19d3626c40ae3460bd665ad7f5fb7b089e31d1a6dcf"},
+    {file = "Faker-19.2.0-py3-none-any.whl", hash = "sha256:c6c1218482faf79ae1d791bb7124067d12339e0b8f400de855e2c281bcf78c77"},
+    {file = "Faker-19.2.0.tar.gz", hash = "sha256:78840b94843f3aa32a34a220b2b5e8b309e3ffff3a231b0c54e841bb68e0757d"},
 ]
 
 [package.dependencies]
@@ -242,4 +242,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c8bea9340d756f8d49a7dd690356b9159b888be3cf9dd5a321f14cdd2d8a66c6"
+content-hash = "1df46514c1b5fe682101e065a398e1eb28888c557a8fd5fe441bd62ce88d5a6c"
