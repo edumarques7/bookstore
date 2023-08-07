@@ -1,7 +1,6 @@
 from django.db import models
 
 
-
 class Category(models.Model):
     objects = None
     title = models.CharField(max_length=100)
@@ -11,5 +10,3 @@ class Category(models.Model):
 
     def __unicode__(self):
         return self.title
-
-
