@@ -154,6 +154,6 @@ DEBUG = int(os.environ.get("DEBUG", default=0))
 # "DJANGO_ALLOWED_HOSTS" should be a single string of hosts with a space between each
 # For example: "DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]"
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'api-ebac-bookstore.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://api-ebac-bookstore-9b21b98be39e.herokuapp.com']
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
