@@ -146,6 +146,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+__pycache__
+*.Pyc
+db.sqlite3
+
 # pytype static type analyzer
 .pytype/
 
